@@ -60,14 +60,14 @@ export function LoginForm({
   return (
     <div className={cn("flex flex-col gap-6 min-h-screen items-center justify-center p-4", className)} {...props}>
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-50 via-slate-50 to-gray-100 dark:from-gray-900 dark:via-gray-800 dark:to-black" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300" />
       
       {/* Floating elements for visual appeal */}
       <div className="absolute top-20 left-20 w-32 h-32 bg-gray-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse" />
       <div className="absolute top-40 right-20 w-24 h-24 bg-slate-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse delay-1000" />
       <div className="absolute bottom-20 left-40 w-28 h-28 bg-gray-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse delay-500" />
       
-      <Card className="relative w-full max-w-md shadow-2xl border-0 bg-white/80 backdrop-blur-lg dark:bg-gray-900/80 animate-fade-in-up">
+      <Card className="relative w-full max-w-md shadow-2xl border-0 bg-blue-50/90 backdrop-blur-lg dark:bg-gray-900/80 animate-fade-in-up">
         <CardHeader className="text-center pb-2">
           <div className="mx-auto w-16 h-16 bg-gradient-to-r from-gray-800 to-black rounded-full flex items-center justify-center mb-4 shadow-lg animate-float">
             <Mail className="w-8 h-8 text-white" />
